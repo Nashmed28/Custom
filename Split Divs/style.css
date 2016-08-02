@@ -14,7 +14,6 @@ body {
 	/*border: solid 1px black;*/
 }
 
-<<<<<<< HEAD
 .column {
 	width: 33.33%;
 	height: 100%;
@@ -25,21 +24,7 @@ body {
 	overflow:auto;
 }
 
-#col1 {
-=======
-#col1 {
-	width: 25%;
-	border: solid 0.5px black;
-	margin: 0%;
-	position: fixed;
-	top: 0;
->>>>>>> f1e043bb3d3fc5029b5b607e5eb2bbcda3656a94
-	left: 0;
-
-}
-
 #col2 {
-<<<<<<< HEAD
 	left:33.33%;
 }
 
@@ -61,30 +46,4 @@ body {
 
 #slider2 {
 	left: 65.66%;
-=======
-	width: 25%;
-	border: solid 0.5px black;
-	margin: 0%;
-	position: fixed;
-	top: 0;
-	left:25%;
-}
-
-#col3 {
-	width: 25%;
-	border: solid 0.5px black;
-	margin: 0%;
-	position: fixed;
-	top: 0;
-	left:50%;
-}
-
-#col4 {
-	width: 25%;
-	border: solid 0.5px black;
-	margin: 0%;
-	position: fixed;
-	top: 0;
-	left:75%;
->>>>>>> f1e043bb3d3fc5029b5b607e5eb2bbcda3656a94
 }
