@@ -1,4 +1,4 @@
-html {
+/*html {
   width: 100%;
   height: 100%;
 }
@@ -24,4 +24,145 @@ body {
 
 #slider2 {
   left: 65.66%;
+}*/
+
+
+/*html {
+  width: 100%;
+  height: 100%;
 }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+}
+
+.slider {
+  border-left: solid 1px black;
+  height: 100%;
+  width: 1%;
+  position: absolute;
+  top: 0;
+}
+
+.slider:hover {
+  cursor: col-resize;
+}
+
+#slider1 {
+  left: 33.33%;
+}
+
+#slider2 {
+  left: 66.66%;
+}
+
+.column {
+  position: absolute;
+  top: 0%;
+  width:33.33%;
+  height:50%;
+  margin: 0%;
+  overflow: auto;
+}
+
+#column1 {
+  left: 0%;
+}
+
+#column2 {
+  left:33.33%;
+}*/
+
+
+
+
+
+
+
+
+
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+}
+
+.slider {
+  background: black;
+  height: 70%;
+  width: 1px;
+  position: absolute;
+  top: 20%;
+  bottom: 10%;
+/*   display: block; */
+}
+
+.slider:hover {
+  cursor: col-resize;
+}
+
+#slider1 {
+  left: 20%;
+}
+
+#slider2 {
+  left: 80%;
+}
+
+.column {
+  position: absolute;
+  top: 20%;
+  height:70%;
+  margin: 0%;
+  overflow: auto;
+}
+
+#column1 {
+  width: 20%;
+  left: 0%;
+}
+
+#column2 {
+  width: 60%;
+  left:20%;
+}
+
+#column3 {
+  width: 20%;
+  left:80%;
+}
+
+
+
+#header {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0%;
+  background-color: gray;
+/*   border: solid 1px black; */
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0%;
+  background-color: blue;
+/*   border: solid 1px black; */
+}
+
