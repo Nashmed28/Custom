@@ -234,7 +234,33 @@ $( window ).resize(function() {
 
 
 
+function slide1_collapse() {
+	var slider1_ratio = x_ratio($("#slider1").position().left);
+	var slider2_ratio = x_ratio($("#slider2").position().left);
+	
+	if (slider1_ratio > 0.10) {
+		  $("#slider1").remove();
+		  
+		  $("#column2").css({
+		  	"width": (slider2_ratio*100 - 1) + "%",
+		    "left": "1%"
+		  });
+		  
+		  $("#column1").css({
+		    "width": "0%"
+		  });
 
+		  $( "body" ).append('<div class="slider" id="slider1" ondblclick="slide1_collapse()"></div>');  		  
+		  
+		  $("#slider1").css({
+		  	"width": "1%",
+		  	"left": "0%"
+		  });
+	}
+	else {
+		alert('ji')
+	}
+}
 
 
 
